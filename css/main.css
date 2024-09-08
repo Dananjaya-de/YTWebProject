@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v3_94 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v3_95 {
+  width: 100%;
+  height: 118px;
+  background: rgba(65,14,11,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.30000001192092896);
+  overflow: hidden;
+}
+.v3_101 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 196px;
+  left: 16px;
+  font-family: Reggae One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: justified;
+}
+.v3_104 {
+  width: 466px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  font-family: Jacquard 24;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_106 {
+  width: 376px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 28px;
+  left: 1041px;
+  font-family: Homenaje;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v3_107 {
+  width: 674px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 306px;
+  left: 58px;
+  font-family: Farsan;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: justified;
+}
+.v3_124 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 804px;
+  left: 72px;
+  font-family: Farsan;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: justified;
+}
+.v3_125 {
+  width: 553px;
+  height: 555px;
+  background: rgba(175,82,222,1);
+  opacity: 1;
+  position: absolute;
+  top: 210px;
+  left: 798px;
+  overflow: hidden;
+}
