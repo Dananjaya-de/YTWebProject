@@ -1,0 +1,25 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up SSH key
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SECRETDAN }}
+
+   name: Deploy files via SSH
+      run: |
+        rsync -avz --delete -e "ssh -p ${{ secrets.SSH_PORT }}" ./ ubuntu@18.133.244.114:/www/wwwroot/dananjaya.run.place/
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SECRETDAN }}
